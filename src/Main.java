@@ -1,6 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    Tea myTea = new Tea();
+        myTea.prepareRecipe();
+
+        Coffee myCoffee = new Coffee();
+        myCoffee.prepareRecipe();
     }
 }
